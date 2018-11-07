@@ -1,0 +1,30 @@
+{
+  "name": "graby.js",
+  "version": "1.0.0",
+  "description": "Graby extract article content from web pages, using puppeteer (Chrome Headless). Inspired by j0ck3r/graby.",
+  "main": "graby.js",
+  "dependencies": {
+    "html-minifier": "^3.5.21",
+    "md5": "^2.2.1",
+    "puppeteer": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node graby.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zlitus/graby.js.git"
+  },
+  "keywords": [
+    "extract-website",
+    "readability",
+    "nodejs"
+  ],
+  "author": "Arnaud Lefort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zlitus/graby.js/issues"
+  },
+  "homepage": "https://github.com/Zlitus/graby.js#readme"
+}
